@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*
+            Phân biệt a++ và ++a
+            1.a++ là toán tử tăng sau 
+            - Khi sử dụng a++, giá trị của a sẽ được tăng lên một đơn vị sau khi biểu thức được thực hiện.
+            - Kết quả trả về của biểu thức a++ sẽ là giá trị của a trước khi tăng.
+            - Sau khi biểu thức được thực hiện, giá trị của a sẽ tăng lên một đơn vị.
+            2.++a là toán tử tăng trước
+            - Khi sử dụng ++a, giá trị của a sẽ được tăng lên một đơn vị trước khi biểu thức được thực hiện.
+            - Kết quả trả về của biểu thức ++a sẽ là giá trị của a sau khi tăng.
+        */
+        
+        let a = 6;
+        let result = ++a + a + a++ + ++a + a;
+        // result = 7 + 7 + 7 + 9 + 9 = 39.
+    </script>
+</body>
+</html>
